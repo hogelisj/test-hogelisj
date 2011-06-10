@@ -1,0 +1,34 @@
+﻿@charset "UTF-8";
+/*=========================================================
+
+	特定の役割を持った要素へのスタイル定義
+
+=========================================================*/
+/*======================================
+	汎用クラス
+=======================================*/
+.clear { clear: both; }
+.floatLeft { float: left; }
+.floatRight { float: right; }
+.layoutCenter { margin: 0 auto; }
+.textLeft { text-align: left; }
+.textRight { text-align: right; }
+.textCenter { text-align: center; }
+.error { border: 1px solid #fb4343; padding: 3px; color: #fb4343; }
+.warning { border: 1px solid #d4ac0a; padding: 3px; color: #d4ac0a; }
+.success { border: 1px solid #149b0d; padding: 3px; color: #149b0d; }
+.caution { color: #ff0000; font-weight: bold; }
+ul.common, ol.common { margin: 10px 0 10px 10px; }
+dl.common { margin: 10px 0 10px 10px; }
+dl.common dt { margin-top: 0.6em; }
+dl.common dd { margin-left: 20px; margin-bottom: 0.6em; }
+table.common { border-bottom: 1px #ccc solid; border-right: 1px #ccc solid; }
+table.common th, table.common td { border-left: 1px #ccc solid; border-top: 1px #ccc solid; padding: 5px 10px; }
+
+/*=========================================================
+
+	特定の役割を持った要素へのスタイル定義
+
+=========================================================*/
+.discription { font-size: 9px; }
+[xmlns] .discription { font-size: 10px; }
